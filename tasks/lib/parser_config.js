@@ -8,6 +8,10 @@ module.exports = {
       splitters: ['<link '],
       rgx: new RegExp(/(?:href)=['"](?!\w*?:?\/\/)([^'"\{]+)['"].*\/?>/i)
     },
+    {
+      splitters: ['<img ', '<video ', '<audio '],
+      rgx: new RegExp(/(?:data-original)=['"](?!\w*?:?\/\/)([^'"\{]+)['"].*\/?>/i)
+    },
     // {
     //   splitters: ['<meta '],
     //   rgx: new RegExp(/(?:content)=['"](?!\w*?:?\/\/)([^'"\{]+)['"].*\/?>/i)
