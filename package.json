@@ -1,5 +1,5 @@
 {
-  "name": "grunt-cdn",
+  "name": "@maiscrm/grunt-cdn",
   "description": "Properly prepends a CDN url to those assets referenced with absolute paths (but not URLs)",
   "version": "0.6.2",
   "homepage": "https://github.com/tactivos/grunt-cdn",
@@ -7,11 +7,13 @@
     "name": "Johnny Halife",
     "url": "http://github.com/johnnyhalife/"
   },
-  "contributors": [{
-    "name": "RobinQu",
-    "email": "robinqu@gmail.com",
-    "url": "http://robinqu.me/"
-  }],
+  "contributors": [
+    {
+      "name": "RobinQu",
+      "email": "robinqu@gmail.com",
+      "url": "http://robinqu.me/"
+    }
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/tactivos/grunt-cdn.git"
